@@ -22,12 +22,17 @@ class User extends Authenticatable
         'email',
         'password',
 <<<<<<< HEAD
+<<<<<<< HEAD
          'phone',
          'role',
 =======
         'phone',
         'role'
 >>>>>>> latifa
+=======
+         'phone',
+         'role',
+>>>>>>> origin/amina
     ];
 
     /**

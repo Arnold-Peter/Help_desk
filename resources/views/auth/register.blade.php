@@ -34,6 +34,34 @@
     </div>
 
 
+<<<<<<< HEAD
 </form>
 
+=======
+</form> --}}
+<form action="" method="post">
+    @csrf
+    <div>
+        <label for="">FULL NAME</label>
+        <input type="text" name="name" id="">
+    </div>
+     <div>
+        <label for="">EMAIL</label>
+        <input type="text" name="name" id="">
+    </div>
+     <div>
+        <label for="">PHONE NUMBER</label>
+        <input type="text" name="name" id="">
+    </div>
+     <div>
+        <label for="">PASSWORD</label>
+        <input type="text" name="name" id="">
+    </div>
+    <div>
+        <label for=""> CONFIRM PASSWORD</label>
+        <input type="text" name="name" id="">
+    </div>
+    <button type="submit">SIGN UP</button>
+</form>
+>>>>>>> origin/amina
 @endsection

@@ -11,6 +11,9 @@ Route::get('/staff/dashboard',[App\Http\Controllers\StaffController::class, 'ind
 Route::get('/customer/dashboard', [App\Http\Controllers\CustomerController::class, 'index']);
 Route::get('/admin/StaffList',[App\Http\Controllers\StaffListController::class, 'index'])->name('Stafflist_dashboard');
 
+Route::get('/admin/add', [App\Http\Controllers\AddController::class, 'index'])->name('Add_User');
+Route::get('/admin/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('Profile');
+Route::get('/admin/report', [App\Http\Controllers\ReportController::class, 'index'])->name('Report');
 
 
 

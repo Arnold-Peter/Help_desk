@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class StaffController extends Controller
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function index(){
         return  view('staff.dashboard');
     }
@@ -16,4 +17,9 @@ class StaffController extends Controller
 }
 
 >>>>>>> latifa
+=======
+    public function index(){
+        return  view('staff.dashboard');
+    }
+>>>>>>> origin/amina
 }
