@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section('content')
-{{-- <form action="{{ route('reg') }}" method="POST">
+<form action="{{ route('reg') }}" method="POST">
     @csrf
     <div style="height: 400px; width:350px; background-color:#dbbd68; border-radius:12px; margin-left:1280px; margin-top:120px; padding-left:12px;">
         <div style="padding-left: 12px;">
@@ -34,29 +34,6 @@
     </div>
 
 
-</form> --}}
-<form action="" method="post">
-    @csrf
-    <div>
-        <label for="">FULL NAME</label>
-        <input type="text" name="name" id="">
-    </div>
-     <div>
-        <label for="">EMAIL</label>
-        <input type="text" name="name" id="">
-    </div>
-     <div>
-        <label for="">PHONE NUMBER</label>
-        <input type="text" name="name" id="">
-    </div>
-     <div>
-        <label for="">PASSWORD</label>
-        <input type="text" name="name" id="">
-    </div>
-    <div>
-        <label for=""> CONFIRM PASSWORD</label>
-        <input type="text" name="name" id="">
-    </div>
-    <button type="submit">SIGN UP</button>
 </form>
+
 @endsection
