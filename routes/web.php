@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\userController::class, 'login_form']);
-Route::get('/registration', [App\Http\Controllers\userController::class, 'register_form'])->name('registration');
+Route::get('/registration', [App\Http\Controllers\userController::class, 'register_form'])->name('reg');
 Route::post('/login', [App\Http\Controllers\userController::class, 'login'])->name('login');
 Route::post('/register', [App\Http\Controllers\userController::class, 'registration'])->name('reg');
 Route::get('/admin/dashboard',[App\Http\Controllers\AdminController::class, 'index'])->name('admin_dashboard');
